@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/035/741/406/large/farrukh-abdur-view-unity-farrukh-06.jpg?1615786377');
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+h1{
+    color: rgb(143, 25, 25);
+}
+.container p{
+    color: rgb(69, 14, 14);
+}
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.container .box .time{
+    background-color: bisque;
+    width: 120px;
+    height: 150px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .box .time span{
+    font-weight: 800;
+    font-size: 30px;
+    color: brown;
+    opacity: 70%;
+}
+.container .box .time p{
+    margin: 10px 0 0;
+    opacity: 70%;
+    font-size: 16px;
+}
